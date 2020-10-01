@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#06b1f5</color>
+    <color name="colorPrimaryDark">#0eede2</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="green">#A0BA</color>
+    <color name="red">#B00</color>
+    <color name="yellow">#FF0</color>
+
+    <color name="jd_red">#CB0000</color>
+    <color name="jd_light">#E5001F</color>
+    <color name="blue">#c6d4e1</color>
+    <color name="dblue">#44749d</color>
+    <color name="white">#ffffff</color>
+</resources>

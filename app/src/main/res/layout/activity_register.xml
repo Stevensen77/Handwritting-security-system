@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background_hss"
+    android:padding="16dp"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://schemas.android.com/apk/res/android ">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textviewktp"
+        android:text="ID Card : " />
+
+    <EditText
+        android:id="@+id/no_ktp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text"
+        android:layout_alignBottom="@+id/text"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="16dp"
+        android:layout_toEndOf="@+id/textviewktp"
+        android:layout_toRightOf="@+id/textviewktp"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:id="@+id/textviewnama"
+        android:text="Name : " />
+
+    <EditText
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textviewnama"
+        android:layout_alignBottom="@+id/textviewnama"
+        android:layout_alignLeft="@+id/no_ktp"
+        android:layout_alignStart="@+id/no_ktp"
+        android:text="" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="85dp"
+        android:id="@+id/textviewnohp"
+        android:text="Image Number : " />
+
+    <EditText
+        android:id="@+id/no_hp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textviewnohp"
+        android:layout_alignBottom="@+id/textviewnohp"
+        android:layout_marginLeft="40dp"
+        android:layout_alignLeft="@+id/no_ktp"
+        android:layout_alignStart="@+id/no_ktp"
+        android:text="" />
+
+
+    <Button
+        android:id="@+id/btn_choose_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/btn_shape_capsule"
+        android:textColor="@drawable/btn_txt_selector"
+        android:drawableLeft="@android:drawable/ic_menu_camera"
+        android:text="Choose Image" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="173dp"
+        android:layout_height="73dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="185dp" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="" />
+
+    <Button
+        android:id="@+id/button_simpan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button_proses"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_shape_capsule"
+        android:padding="8dp"
+        android:text="Save"
+        android:textColor="@drawable/btn_txt_selector" />
+
+    <Button
+        android:id="@+id/button_proses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/btn_shape_capsule"
+        android:layout_alignStart="@+id/textviewktp"
+        android:layout_alignLeft="@+id/textviewktp"
+        android:textColor="@drawable/btn_txt_selector"
+        android:layout_marginBottom="12dp"
+        android:text="Process" />
+
+    <Button
+        android:id="@+id/button_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/no_ktp"
+        android:layout_alignRight="@+id/no_ktp"
+        android:layout_alignTop="@+id/button_simpan"
+        android:background="@drawable/btn_shape_capsule"
+        android:textColor="@drawable/btn_txt_selector"
+        android:text="View Data" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+
+        android:layout_marginBottom="93dp"
+        android:text="" />
+
+
+</RelativeLayout>

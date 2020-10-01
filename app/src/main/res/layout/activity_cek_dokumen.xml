@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cekDokumen">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="378dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="11dp"
+        android:textAlignment="center"
+        android:textSize="8pt"
+        android:textColor="@color/colorPrimary"
+        android:text="Check Your Document Here"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="28dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <Button
+        android:id="@+id/btn_browse"
+        android:layout_width="91dp"
+        android:layout_height="38dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="218dp"
+        android:text="Browse"
+        android:background="@drawable/btn_shape_capsule"
+        android:textColor="@drawable/btn_txt_selector"
+        tools:layout_editor_absoluteX="193dp"
+        tools:layout_editor_absoluteY="83dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp" />
+
+    <Button
+        android:id="@+id/btn_check"
+        android:layout_width="111dp"
+        android:layout_height="38dp"
+        android:layout_alignTop="@+id/btn_browse"
+        android:layout_centerHorizontal="true"
+        android:text="Check"
+        android:background="@drawable/btn_shape_capsule"
+        android:textColor="@drawable/btn_txt_selector"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="204dp" />
+
+    <TextView
+        android:id="@+id/targeturi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <ImageView
+        android:id="@+id/targetimage"
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:layout_marginStart="0dp"
+        android:background="@drawable/list"
+        android:scaleType="fitXY"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:id="@+id/text_info"
+        android:layout_width="match_parent"
+        android:layout_height="225dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true" />
+
+    <Button
+        android:id="@+id/test"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btn_browse"
+        android:background="@drawable/btn_shape_capsule"
+        android:textColor="@drawable/btn_txt_selector"
+        android:layout_marginEnd="15dp"
+        android:text="Test"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp" />
+
+    <TextView
+        android:id="@+id/nama_pemilik"
+        android:layout_width="326dp"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="137dp"
+        android:background="@android:color/holo_orange_light"
+        android:textAlignment="center"
+        android:textColor="@color/dblue"
+        android:textSize="12pt" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="182dp"
+        android:text="Owner is  :"
+        android:textSize="9pt" />
+
+</RelativeLayout>

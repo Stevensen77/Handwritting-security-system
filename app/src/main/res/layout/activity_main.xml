@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.dian.handwritingsecuritysystem.MainActivity"
+    android:background="@drawable/background_hss">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Digital HandWritten Security System "
+        android:textColor="#44749d"
+        android:textSize="18dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"/>
+
+    <ImageView
+        android:layout_width="355dp"
+        android:layout_height="177dp"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/logouniversitastrisakti" />
+
+    <ImageButton
+        android:id="@+id/buttonregis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/pencil" />
+
+    <ImageButton
+        android:id="@+id/buttoncheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/search" />
+
+    <ImageButton
+        android:id="@+id/buttonabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/aboutus" />
+
+
+</LinearLayout>
